@@ -14,8 +14,9 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-african-dark text-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-african-dark text-white shadow-lg sticky top-0 z-50 relative overflow-hidden">
+      <div className="african-pattern-bg absolute inset-0 opacity-5"></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">

@@ -134,9 +134,17 @@
   }
 
   .pattern-overlay {
-    background-image: 
-      repeating-linear-gradient(0deg, transparent, transparent 35px, hsla(25, 75%, 47%, 0.1) 35px, hsla(25, 75%, 47%, 0.1) 70px),
-      repeating-linear-gradient(90deg, transparent, transparent 35px, hsla(25, 55%, 27%, 0.1) 35px, hsla(25, 55%, 27%, 0.1) 70px);
+    background-image: url("@assets/chicken website pattern_1754500049645.jpg");
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    opacity: 0.15;
+  }
+
+  .african-pattern-bg {
+    background-image: url("@assets/chicken website pattern_1754500049645.jpg");
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    opacity: 0.1;
   }
   
   .geometric-accent::before {

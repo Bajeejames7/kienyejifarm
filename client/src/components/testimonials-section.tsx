@@ -54,8 +54,9 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section id="testimonials" className="py-20 bg-african-cream">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="testimonials" className="py-20 bg-african-cream relative">
+      <div className="african-pattern-bg absolute inset-0"></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <div className="relative inline-block">
             <div className="geometric-accent absolute -top-4 -left-4"></div>

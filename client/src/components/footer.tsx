@@ -9,8 +9,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-african-dark text-african-cream py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-african-dark text-african-cream py-12 relative overflow-hidden">
+      <div className="african-pattern-bg absolute inset-0 opacity-5"></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">

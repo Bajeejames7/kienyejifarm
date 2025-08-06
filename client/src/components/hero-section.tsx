@@ -59,11 +59,18 @@ export default function HeroSection() {
           </div>
           
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Free-range Kienyeji chickens roaming on African farm" 
-              className="rounded-2xl shadow-2xl w-full h-auto" 
-            />
+            <div className="bg-african-cream p-8 rounded-2xl shadow-2xl relative overflow-hidden">
+              <img 
+                src="@assets/chicken website pattern_1754500049645.jpg" 
+                alt="Traditional African geometric pattern representing our cultural heritage" 
+                className="w-full h-80 object-cover rounded-xl opacity-90" 
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-african-brown/50 to-transparent rounded-xl"></div>
+              <div className="absolute bottom-8 left-8 text-white">
+                <h3 className="text-2xl font-bold mb-2">Authentic African Heritage</h3>
+                <p className="text-african-cream">Rooted in traditional farming practices</p>
+              </div>
+            </div>
             <div className="absolute -bottom-6 -right-6 bg-african-cream p-6 rounded-xl shadow-lg">
               <div className="text-center">
                 <div className="text-3xl font-bold text-african-brown">100%</div>

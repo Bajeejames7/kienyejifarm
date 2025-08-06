@@ -36,8 +36,9 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="py-20 bg-african-cream">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-african-cream relative">
+      <div className="african-pattern-bg absolute inset-0"></div>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <div className="relative inline-block">
             <div className="geometric-accent absolute -top-4 -left-4"></div>
