@@ -108,7 +108,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
                 <MessageCircle className="h-4 w-4 mr-2" />
-                <span>+254 712 345 678</span>
+                <span>+254 702 073 507</span>
               </li>
               <li className="flex items-center">
                 <span>✉</span>

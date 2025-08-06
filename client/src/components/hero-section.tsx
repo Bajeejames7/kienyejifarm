@@ -11,7 +11,7 @@ export default function HeroSection() {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hello! I'm interested in ordering fresh Kienyeji chicken. Please send me more details.");
-    window.open(`https://wa.me/254712345678?text=${message}`, '_blank');
+    window.open(`https://wa.me/254702073507?text=${message}`, '_blank');
   };
 
   return (
@@ -22,18 +22,21 @@ export default function HeroSection() {
           <div className="text-center lg:text-left">
             <div className="relative inline-block">
               <div className="geometric-accent absolute -top-6 -left-6"></div>
-              <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-                Fresh, Free-Range <span className="text-african-cream">Kienyeji</span> Chicken
+              <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-2xl leading-tight mb-6" 
+                  style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(0,0,0,0.5)' }}>
+                Fresh, Free-Range <span className="text-yellow-300">Kienyeji</span> Chicken
               </h1>
             </div>
-            <p className="text-xl md:text-2xl text-african-cream mb-8 font-light">
-              Naturally Raised, Farm to Table! Order fully grown, organically raised indigenous chicken with rich flavor and unbeatable nutrition.
-            </p>
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-6 mb-8">
+              <p className="text-xl md:text-2xl text-white font-medium">
+                Naturally Raised, Farm to Table! Order fully grown, organically raised indigenous chicken with rich flavor and unbeatable nutrition.
+              </p>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 onClick={() => scrollToSection('order')}
-                className="bg-african-red hover:bg-african-fire text-white px-8 py-4 text-lg h-auto"
+                className="bg-gradient-to-r from-african-red to-african-fire hover:from-african-fire hover:to-red-700 text-white px-8 py-4 text-lg h-auto font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-2 border-white/20"
                 size="lg"
               >
                 <ShoppingCart className="mr-2 h-5 w-5" />
@@ -41,7 +44,7 @@ export default function HeroSection() {
               </Button>
               <Button 
                 onClick={openWhatsApp}
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg h-auto"
+                className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg h-auto font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-2 border-white/20"
                 size="lg"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
@@ -50,7 +53,7 @@ export default function HeroSection() {
               <Button 
                 onClick={() => scrollToSection('products')}
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-african-brown px-8 py-4 text-lg h-auto"
+                className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-african-brown px-8 py-4 text-lg h-auto font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
                 size="lg"
               >
                 View Price List
