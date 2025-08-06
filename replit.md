@@ -5,6 +5,7 @@ This is a Kienyeji Fresh Farm website - an e-commerce platform for selling free-
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design preference: African-themed website with traditional geometric patterns as subtle background elements, focused on the chicken business rather than cultural themes.
 
 # System Architecture
 
