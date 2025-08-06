@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(47, 40%, 12%);
+  --muted: hsl(35, 30%, 95%);
+  --muted-foreground: hsl(35, 15%, 45%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(47, 40%, 12%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(47, 40%, 12%);
+  --border: hsl(35, 20%, 85%);
+  --input: hsl(35, 20%, 85%);
+  --primary: hsl(25, 65%, 50%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(35, 30%, 95%);
+  --secondary-foreground: hsl(47, 40%, 12%);
+  --accent: hsl(35, 30%, 95%);
+  --accent-foreground: hsl(47, 40%, 12%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(25, 65%, 50%);
+  --radius: 0.5rem;
+  
+  /* African theme colors */
+  --african-orange: hsl(25, 75%, 47%);
+  --african-brown: hsl(25, 55%, 27%);
+  --african-gold: hsl(43, 74%, 49%);
+  --african-peru: hsl(35, 60%, 55%);
+  --african-red: hsl(348, 83%, 47%);
+  --african-fire: hsl(348, 83%, 35%);
+  --african-dark: hsl(25, 45%, 15%);
+  --african-cream: hsl(35, 44%, 90%);
+}
+
+.dark {
+  --background: hsl(47, 20%, 8%);
+  --foreground: hsl(0, 0%, 95%);
+  --muted: hsl(47, 15%, 15%);
+  --muted-foreground: hsl(35, 10%, 60%);
+  --popover: hsl(47, 20%, 8%);
+  --popover-foreground: hsl(0, 0%, 95%);
+  --card: hsl(47, 20%, 8%);
+  --card-foreground: hsl(0, 0%, 95%);
+  --border: hsl(47, 15%, 20%);
+  --input: hsl(47, 15%, 20%);
+  --primary: hsl(25, 65%, 50%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(47, 15%, 15%);
+  --secondary-foreground: hsl(0, 0%, 95%);
+  --accent: hsl(47, 15%, 15%);
+  --accent-foreground: hsl(0, 0%, 95%);
+  --destructive: hsl(0, 62%, 30%);
+  --destructive-foreground: hsl(0, 0%, 95%);
+  --ring: hsl(25, 65%, 50%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .african-orange {
+    color: hsl(25, 75%, 47%);
+  }
+  
+  .bg-african-orange {
+    background-color: hsl(25, 75%, 47%);
+  }
+  
+  .african-brown {
+    color: hsl(25, 55%, 27%);
+  }
+  
+  .bg-african-brown {
+    background-color: hsl(25, 55%, 27%);
+  }
+  
+  .african-gold {
+    color: hsl(43, 74%, 49%);
+  }
+  
+  .bg-african-gold {
+    background-color: hsl(43, 74%, 49%);
+  }
+  
+  .african-peru {
+    color: hsl(35, 60%, 55%);
+  }
+  
+  .bg-african-peru {
+    background-color: hsl(35, 60%, 55%);
+  }
+  
+  .african-red {
+    color: hsl(348, 83%, 47%);
+  }
+  
+  .bg-african-red {
+    background-color: hsl(348, 83%, 47%);
+  }
+  
+  .african-fire {
+    color: hsl(348, 83%, 35%);
+  }
+  
+  .bg-african-fire {
+    background-color: hsl(348, 83%, 35%);
+  }
+  
+  .african-dark {
+    color: hsl(25, 45%, 15%);
+  }
+  
+  .bg-african-dark {
+    background-color: hsl(25, 45%, 15%);
+  }
+  
+  .african-cream {
+    color: hsl(35, 44%, 90%);
+  }
+  
+  .bg-african-cream {
+    background-color: hsl(35, 44%, 90%);
+  }
+
+  .pattern-overlay {
+    background-image: 
+      repeating-linear-gradient(0deg, transparent, transparent 35px, hsla(25, 75%, 47%, 0.1) 35px, hsla(25, 75%, 47%, 0.1) 70px),
+      repeating-linear-gradient(90deg, transparent, transparent 35px, hsla(25, 55%, 27%, 0.1) 35px, hsla(25, 55%, 27%, 0.1) 70px);
+  }
+  
+  .geometric-accent::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, hsl(25, 75%, 47%) 25%, transparent 25%), 
+                linear-gradient(-45deg, hsl(25, 55%, 27%) 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, hsl(43, 74%, 49%) 75%), 
+                linear-gradient(-45deg, transparent 75%, hsl(35, 60%, 55%) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
