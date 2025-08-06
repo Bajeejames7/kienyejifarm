@@ -55,7 +55,7 @@ export default function OrderSection() {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hello! I'd like to place an order for Kienyeji chicken. Please send me more details.");
-    window.open(`https://wa.me/254702073507?text=${message}`, '_blank');
+    window.open(`https://wa.me/254702073509?text=${message}`, '_blank');
   };
 
   return (
@@ -79,7 +79,7 @@ export default function OrderSection() {
               </div>
               <h3 className="text-xl font-bold text-african-dark mb-3">WhatsApp</h3>
               <p className="text-gray-600 mb-4">Quick and easy ordering through WhatsApp chat</p>
-              <p className="text-sm text-african-brown font-semibold">+254 702 073 507</p>
+              <p className="text-sm text-african-brown font-semibold">+254 702 073 509</p>
             </CardContent>
           </Card>
 

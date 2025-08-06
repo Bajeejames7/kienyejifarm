@@ -51,7 +51,7 @@ export default function ContactSection() {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hello! I'd like to know more about your Kienyeji chickens. Please send me details.");
-    window.open(`https://wa.me/254702073507?text=${message}`, '_blank');
+    window.open(`https://wa.me/254702073509?text=${message}`, '_blank');
   };
 
   return (
@@ -80,7 +80,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-african-cream font-semibold">WhatsApp</p>
-                  <p className="text-white text-lg">+254 702 073 507</p>
+                  <p className="text-white text-lg">+254 702 073 509</p>
                   <p className="text-african-cream text-sm">Available 6 AM - 8 PM</p>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-african-cream font-semibold">Phone Call</p>
-                  <p className="text-white text-lg">+254 702 073 507</p>
+                  <p className="text-white text-lg">+254 702 073 509</p>
                   <p className="text-african-cream text-sm">Call us directly for orders</p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-african-cream font-semibold">Email</p>
-                  <p className="text-white text-lg">orders@kienyejifresh.co.ke</p>
+                  <p className="text-white text-lg">jamesbajee3579@gmail.com</p>
                   <p className="text-african-cream text-sm">We respond within 2 hours</p>
                 </div>
               </div>

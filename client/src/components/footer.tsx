@@ -108,11 +108,11 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
                 <MessageCircle className="h-4 w-4 mr-2" />
-                <span>+254 702 073 507</span>
+                <span>+254 702 073 509</span>
               </li>
               <li className="flex items-center">
                 <span>✉</span>
-                <span className="ml-2">orders@kienyejifresh.co.ke</span>
+                <span className="ml-2">jamesbajee3579@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <span>📍</span>

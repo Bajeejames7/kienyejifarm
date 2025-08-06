@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function ProductsSection() {
   const openWhatsApp = (productType: string) => {
     const message = encodeURIComponent(`Hello! I'm interested in ordering ${productType}. Please send me more details and pricing.`);
-    window.open(`https://wa.me/254702073507?text=${message}`, '_blank');
+    window.open(`https://wa.me/254702073509?text=${message}`, '_blank');
   };
 
   return (
