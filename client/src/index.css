@@ -152,6 +152,8 @@
     position: absolute;
     width: 40px;
     height: 40px;
+    left: -60px;
+    top: -20px;
     background: linear-gradient(45deg, hsl(25, 75%, 47%) 25%, transparent 25%), 
                 linear-gradient(-45deg, hsl(25, 55%, 27%) 25%, transparent 25%),
                 linear-gradient(45deg, transparent 75%, hsl(43, 74%, 49%) 75%), 
